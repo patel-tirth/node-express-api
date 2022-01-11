@@ -1,0 +1,25 @@
+{
+  "name": "hatchways-api",
+  "version": "1.0.0",
+  "description": "rest api blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest"
+  },
+  "author": "Tirth Patel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "supertest": "^6.1.6"
+  }
+}
